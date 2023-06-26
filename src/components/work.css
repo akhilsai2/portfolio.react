@@ -1,0 +1,22 @@
+.skill-show{
+    width:90%;
+    height:90vh;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    border-bottom: 1px solid #bfbfbf;
+}
+.empty-card{
+    background-color: white;
+    width:500px;
+    height:280px;
+    border-radius:10px;
+    opacity:0.2;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+.empty-card:hover{
+    border:2px solid yellow;
+    box-shadow: 0px 2px 10px 0px white;
+}

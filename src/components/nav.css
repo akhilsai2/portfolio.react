@@ -1,0 +1,35 @@
+.nav-Cont{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 30px;
+    padding-right: 20px;
+    height:15vh;
+    width:93%;
+    position:sticky;
+    border-bottom:1px solid #bfbfbf ;
+
+}
+.section-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:50%;
+}
+.logoHead{
+    font-size: 45px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+}
+h1{
+    color:white;
+}
+.link-head{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.2em;
+}
+.link-head:hover{
+    font-size: 28px;
+}

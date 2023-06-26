@@ -1,0 +1,42 @@
+.skills{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+img{
+    width:100px;
+}
+img:hover{
+    width:103px;
+}
+.skills-head{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    /* text-align: center; */
+     padding-left:60px; 
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+.skills-Cont{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height:80vh;
+    border-bottom:1px solid #bfbfbf ;
+}
+.icon{
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
