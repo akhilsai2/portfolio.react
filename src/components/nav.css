@@ -26,10 +26,10 @@ h1{
     color:white;
 }
 .link-head{
-    font-size: 25px;
+    font-size: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 0.2em;
 }
 .link-head:hover{
-    font-size: 28px;
+    font-size: 17px;
 }

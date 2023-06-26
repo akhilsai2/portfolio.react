@@ -46,30 +46,30 @@ const About = () => {
                 }} hideControls
                 >
                     <div>
-                        <h1 style={{ fontSize: "70px" }}>Software Developer</h1>
-                        <h1 style={{ fontSize: "50px", color: "#1ecafa" }}>KodeCorp </h1>
-                        <p style={{ fontSize: "30px", color: "white" }}>Full-Time Present 3 Months</p>
+                        <h1 style={{ fontSize: "40px" }}>Software Developer</h1>
+                        <h1 style={{ fontSize: "30px", color: "#1ecafa" }}>KodeCorp </h1>
+                        <p style={{ fontSize: "15px", color: "white" }}>Full-Time Present 3 Months</p>
                     </div>
 
                     <div>
-                        <h1 style={{ fontSize: "50px" }}>Traniee Software Developer</h1>
+                        <h1 style={{ fontSize: "30px" }}>Traniee Software Developer</h1>
                         <h1 style={{ fontSize: "20px", color: "#1ecafa" }}>NXTWAVE </h1>
-                        <p style={{ fontSize: "20px", color: "white" }}>6 Months</p>
+                        <p style={{ fontSize: "15px", color: "white" }}>6 Months</p>
                     </div>
                     <div>
-                        <h1 style={{ fontSize: "50px" }}>Bachelors of Technology</h1>
-                        <h1 style={{ fontSize: "27px", color: "#1ecafa" }}>JB Institute of Engineering and Technology</h1>
-                        <h1 style={{ fontSize: "23px", color: "#1ecafa" }}>Electrical and Electronics Engineering </h1>
-                        <p style={{ fontSize: "20px", color: "white" }}>2015 - 2022</p>
+                        <h1 style={{ fontSize: "30px" }}>Bachelors of Technology</h1>
+                        <h1 style={{ fontSize: "23px", color: "#1ecafa" }}>JB Institute of Engineering and Technology</h1>
+                        <h1 style={{ fontSize: "20px", color: "#1ecafa" }}>Electrical and Electronics Engineering </h1>
+                        <p style={{ fontSize: "15px", color: "white" }}>2015 - 2022</p>
                     </div>
                     <div>
-                        <h1 style={{ fontSize: "50px" }}>Board of Intermediate</h1>
-                        <h1 style={{ fontSize: "25px", color: "#1ecafa" }}>SR College</h1>
+                        <h1 style={{ fontSize: "30px" }}>Board of Intermediate</h1>
+                        <h1 style={{ fontSize: "20px", color: "#1ecafa" }}>SR College</h1>
                         {/* <p style={{fontSize:"20px",color:"white"}}>2013 - 2015</p> */}
                     </div>
                     <div>
-                        <h1 style={{ fontSize: "40px" }}>Secondary School of Education</h1>
-                        <h1 style={{ fontSize: "25px", color: "#1ecafa" }}>Nirmala Vidhyalaya High School </h1>
+                        <h1 style={{ fontSize: "28px" }}>Secondary School of Education</h1>
+                        <h1 style={{ fontSize: "20px", color: "#1ecafa" }}>Nirmala Vidhyalaya High School </h1>
                         {/* <p style={{fontSize:"20px",color:"white"}}>2013</p> */}
                     </div>
 

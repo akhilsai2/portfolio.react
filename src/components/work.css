@@ -8,8 +8,8 @@
 }
 .empty-card{
     background-color: white;
-    width:500px;
-    height:280px;
+    width:200px;
+    height:150px;
     border-radius:10px;
     opacity:0.2;
     display:flex;

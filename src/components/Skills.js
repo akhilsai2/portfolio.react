@@ -21,7 +21,7 @@ const Skills = () => {
                 {listOfSkills.map(each => (
                     <div key={each.text} className="icon">
                         <img src={each.image} alt={each.image} />
-                        <h1>{each.text}</h1>
+                        <h1 style={{ fontSize: "20px" }}>{each.text}</h1>
                     </div>
                 ))}
             </div>

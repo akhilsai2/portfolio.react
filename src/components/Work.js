@@ -25,9 +25,9 @@ const Work = () => {
             </div>
             <div className="skill-show">
                 {cardStore.map(each => <CardWork items={each} />)}
-                <div style={{ display: "flex", alignItems: "center", height: "310px", marginLeft: "26px", }}>
+                <div style={{ display: "flex", alignItems: "center", height: "180px", marginLeft: "26px", }}>
                     <div className="empty-card">
-                        <AiOutlinePlus style={{ fontSize: "80px", color: "#fofofo" }} />
+                        <AiOutlinePlus style={{ fontSize: "30px", color: "#fofofo" }} />
                     </div>
 
                 </div>

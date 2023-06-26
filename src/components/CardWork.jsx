@@ -7,7 +7,7 @@ const CardWork = (props) => {
     if (items!=={}) {
    return (
     <div key={items} className="card">      
-        <img src={items.image} alt={items.text} style={{width:"500px",height:"200px"}} className="card-image"/>
+        <img src={items.image} alt={items.text} style={{width:"190px",height:"80px"}} className="card-image"/>
         <div className="card-link">
         <h1 className="card-name">{items.text}</h1>
         <div style={{width:"100px",display:"flex",justifyContent:"space-around"}}>

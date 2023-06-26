@@ -34,7 +34,7 @@ const fileSubmit= async (e)=>{
             </div>
             <div style={{display:"flex" , justifyContent:"space-around",alignItems:"center",height:"80vh" }}>
                 <div className="formCont">
-                <img src={pngcontact} alt="contact" className="contact-image" style={{width:"700px",height:"250px"}} />
+                <img src={pngcontact} alt="contact" className="contact-image" style={{width:"310px",height:"120px"}} />
                 <form className="inCont" onSubmit={fileSubmit}>
                 <label htmlFor='Name' className="label" >Name</label>
                 <input id="Name" className="input" type="text" placeholder='Name' ref={Name} value={Name.current.value} onChange={(e)=>{                  
@@ -44,13 +44,13 @@ const fileSubmit= async (e)=>{
                 <label htmlFor='email' className="label">Email</label>
                 <input id="email" className="input" type="text" placeholder='Email' ref={Email} value={Email.current.value} onChange={(e)=>Email.current.value=e.target.value}/>
                 <label htmlFor='msg' className="label">Message</label>
-                <textarea id="msg" className="textarea" placeholder='Enter Message...' rows={10} cols={85} ref={Message}  value={Message.current.value} onChange={(e)=>Message.current.value=e.target.value}/>
+                <textarea id="msg" className="textarea" placeholder='Enter Message...' rows={6} cols={32} ref={Message}  value={Message.current.value} onChange={(e)=>Message.current.value=e.target.value}/>
                 <button type="submit" className="btn">Send</button>
                 {show && <p style={{color:"green"}}>{showMsg}</p>}
                 </form>
                 
                 </div>
-                <img src={contact} alt="server" style={{width:"800px",height:"400px"}} />
+                <img src={contact} alt="server" style={{width:"500px",height:"400px"}} />
             </div>
     </div>
   )
