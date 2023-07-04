@@ -13,11 +13,14 @@ const Contact = () => {
 
   const fileSubmit = async (e) => {
     e.preventDefault();
-    const response = await Axios.post("http://localhost:8000/contact", {
-      Name: Name.current.value,
-      Email: Email.current.value,
-      Message: Message.current.value,
-    });
+    const response = await Axios.post(
+      "https://vercelbackendserver-react.vercel.app/contact",
+      {
+        Name: Name.current.value,
+        Email: Email.current.value,
+        Message: Message.current.value,
+      }
+    );
     console.log(response);
     Name.current.value = "";
     Email.current.value = "";
